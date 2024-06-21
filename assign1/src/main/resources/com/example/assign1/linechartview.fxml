@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #fffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assign1.lineChartController">
+   <children>
+      <LineChart layoutX="77.0" layoutY="99.0" prefHeight="443.0" prefWidth="672.0">
+        <xAxis>
+          <CategoryAxis label="year" prefHeight="27.0" prefWidth="552.0" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" label="percentage" prefHeight="365.0" prefWidth="51.0" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Label alignment="TOP_CENTER" layoutX="123.0" layoutY="28.0" prefHeight="17.0" prefWidth="583.0" text="Renewable Energy %">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
